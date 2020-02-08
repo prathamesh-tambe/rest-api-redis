@@ -1,0 +1,24 @@
+{
+  "name": "rest-api-redis-etag",
+  "version": "1.0.0",
+  "description": "rest api redis etag",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Prathamesh Tambe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "etag": "^1.8.1",
+    "express": "^4.17.1",
+    "jsonschema": "^1.2.5",
+    "nodemon": "^2.0.2",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
